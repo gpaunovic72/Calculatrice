@@ -1,9 +1,10 @@
 import "./App.css";
+import Calculate from "./components/Calculate";
 
 function App() {
   return (
     <div className="app">
-      <h1>Calculatrice</h1>
+      <Calculate title="Calculate" />
     </div>
   );
 }
